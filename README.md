@@ -28,6 +28,15 @@ Display the reference data for this company in a div to the right of the chart
 - by default, also include the most recent PD, PDMedianProxyBps, Rating, PDContributionCount and SP data. Regardless of the charting value (PD/LGD)
 - when the user hovers over data points on the graph, update the PD, PDMedianProxyBps, Rating, PDContributionCount and SP data for the active month, regardless of the charting value (PD/LGD)
 
-### 3. Show the data in a table
+### 3. Show the data in a table below
 
-In a table, display the time series points for each month with their respective PD, Rating, PDContributionCount, PDMedianProxyBps, LGD, and LGDContributionCount values.
+In a table below the chart and info box, display the time series points for each month with their respective
+
+- PD,
+- Rating,
+- PDContributionCount,
+- PDMedianProxyBps,
+- LGD,
+- LGDContributionCount
+
+values.
