@@ -18,4 +18,6 @@ src/data.json contains data about an entity and its time series over 11 months.
     * when charting the PD, the graph needs to be plotted by the PD value, but the label for each point needs to be the Rating
     * when charting the LGD, the graph needs to be plotted by the LGD value and the label for each point needs to be the LGD
     * use a button or control to flip between PD/LGD charting
+    * Y axis range/labels: charting by PD: empty labels, charting by LGD: 0 - 100 range
+    * X axis: dates (format: "Mar 19")
 * in a table, display the time serie points for each month and for each, display the PD, Rating, PDContributionCount, PDMedianProxyBps, LGD, and LGDContributionCount.
