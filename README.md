@@ -26,6 +26,8 @@ Display the reference data for this company in a div to the right of the chart
 
 - include: name, id, industry, country and region
 - by default, also include the most recent PD, PDMedianProxyBps, Rating, PDContributionCount and SP data. Regardless of the charting value (PD/LGD)
+
+#### BONUS
 - when the user hovers over data points on the graph, update the PD, PDMedianProxyBps, Rating, PDContributionCount and SP data for the active month, regardless of the charting value (PD/LGD)
 
 ### 3. Show the data in a table below
